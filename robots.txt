@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://itsourstudio.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /libs/
+Disallow: /tests/ 

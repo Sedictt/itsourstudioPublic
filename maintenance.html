@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Under Development - it's ouR Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        .maintenance-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--background-color);
+            background-image: var(--background-pattern);
+        }
+
+        .logo-container {
+            margin-bottom: 2rem;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .logo-container img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .content-box {
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            max-width: 600px;
+            width: 90%;
+            animation: fadeIn 1s ease-out 0.3s both;
+            border: var(--card-border);
+        }
+
+        .progress-bar {
+            width: 200px;
+            height: 6px;
+            background: rgba(191, 106, 57, 0.2);
+            border-radius: 3px;
+            margin: 2rem auto;
+            overflow: hidden;
+        }
+
+        .progress-bar::after {
+            content: '';
+            display: block;
+            width: 40%;
+            height: 100%;
+            background: var(--primary-color);
+            animation: progress 2s ease-in-out infinite;
+        }
+
+        @keyframes progress {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(250%); }
+        }
+
+        .social-links {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .social-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 0.5rem;
+            border-radius: var(--radius-sm);
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance-container">
+        <div class="logo-container">
+            <img src="assets/images/logo/LOGO_var1.png" alt="it's ouR Studio Logo">
+        </div>
+        
+        <div class="content-box">
+            <h1>Website Under Development</h1>
+            <p class="large">We're working hard to bring you something amazing!</p>
+            <div class="progress-bar"></div>
+            <p>Our new website is currently under construction. We're making it better and more beautiful for you.</p>
+            <p class="small">Expected completion: Coming Soon</p>
+            
+            <div class="social-links">
+                <a href="#" class="social-link" title="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+                <a href="#" class="social-link" title="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+                <a href="#" class="social-link" title="TikTok">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5Z"></path><path d="M12 12a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"></path><path d="M12 12v-4"></path><path d="M15 8h.01"></path></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

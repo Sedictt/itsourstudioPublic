@@ -1,0 +1,40 @@
+[20-Apr-2025 10:11:39 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:11:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsojmqn/public_html/tests/add_admin.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:11:43 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:11:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsojmqn/public_html/tests/add_admin.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:11:50 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:11:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsojmqn/public_html/tests/add_admin.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:12:53 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:12:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsojmqn/public_html/tests/add_admin.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:13:20 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:13:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsojmqn/public_html/tests/add_admin.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:19:05 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:19:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsojmqn/public_html/tests/add_admin.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:20:15 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:20:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsojmqn/public_html/tests/add_admin.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:25:14 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/itsojmqn/public_html/tests/add_admin.php on line 2
+[20-Apr-2025 10:25:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsojmqn/public_html/tests/add_admin.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/itsojmqn/public_html/tests/add_admin.php on line 2

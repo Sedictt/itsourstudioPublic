@@ -1,0 +1,186 @@
+.sidebar .nav-links{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-links li {
+    width: 5.5vw;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--background-color);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links li a img{
+    height:100%;
+    width:100%;
+}
+
+.nav-links li a:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+body.darknav .navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--space-sm);
+    padding: 10px 20px;
+    position: absolute;
+    z-index: 1000;
+}
+
+body.darknav .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    /* padding: 2rem; */
+    /* margin: auto; */
+}
+
+body.darknav .nav-links li {
+    width: 5.5vw;
+}
+
+body.darknav .nav-links li a img {
+    height: 100%;
+    width: 100%;
+}
+
+body.darknav .nav-links li a {
+text-decoration: none;
+    color: var(--text-color);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.logo img {
+    display: block;
+    width: 1vw;
+}
+
+body.darknav .logo img {
+    display: block;
+    width: 1vw;
+}
+
+
+li.cta {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    background-color: var(--primary-color);
+    width: 7.25rem;
+    height: 3.188rem;
+    border-radius: 1.938rem;
+    
+}
+
+
+body.darknav li.cta {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    background-color: var(--primary-color);
+    width: 7.25rem;
+    height: 3.188rem;
+    border-radius: 1.938rem;
+    
+}
+
+.sidebar li.cta{
+    margin: 0;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+body.dakrnav .sidebar li.cta{
+    margin: 0;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.cta a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    color: var(--background-color);
+    text-align: center;
+}
+
+body.darknav .cta a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    color: var(--background-color);
+    text-align: center;
+}
+
+.sidebar li.cta a{
+text-align:left;
+}
+
+nav li.logo {
+    width: 13vw;
+    height: 3rem;
+    flex-shrink: 0;
+}
+
+body.darknav nav li.logo {
+    width: 13vw;
+    height: 3rem;
+    flex-shrink: 0;
+}
+
+
+
+nav li:first-child {
+    margin-right:17rem;
+}
+
+body.darknav nav li:first-child {
+    margin-right:17rem;
+}
+
+nav li:last-child {
+    margin-left: 17rem;
+}
+
+body.darknav nav li:last-child {
+    /* margin-left: 17rem; */
+}
+
+ 
+
+
+.sidebar {
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100svh;
+    width: 18rem;
+    z-index: 9999;
+    background-color: var(--primary-color);
+    display: block;
+    padding-top: 2rem;
+  
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width:100%;
+}

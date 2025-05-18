@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Allow access to maintenance page and assets
+RewriteCond %{REQUEST_URI} !^/maintenance\.html$
+RewriteCond %{REQUEST_URI} !^/css/
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteCond %{REQUEST_URI} !^/js/
+RewriteCond %{REQUEST_URI} !^/admin/
+# Hide .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+
+# RewriteRule ^(.*)$ /maintenance.html [L,R=302]

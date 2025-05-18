@@ -1,0 +1,95 @@
+/* Additional animations for the photography studio booking system */
+
+/* Subtle hover effect for cards */
+.container:hover,
+.payment-confirmation:hover,
+.success-message:hover,
+.admin-container:hover,
+.login-form:hover {
+    box-shadow: 0 15px 35px rgba(59, 44, 40, 0.1);
+}
+
+/* Subtle scale effect for form groups */
+.form-group:hover {
+    transform: translateY(-2px);
+}
+
+/* Subtle background animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container::before,
+.admin-container::before,
+.login-form::before,
+.booking-summary::before {
+    background-size: 200% 200%;
+    animation: gradientBG 15s ease infinite;
+}
+
+/* Subtle pulse animation for buttons */
+.btn:hover {
+    animation: buttonPulse 1s infinite;
+}
+
+@keyframes buttonPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+
+/* Subtle rotation for loading or processing states */
+.loading {
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Subtle bounce for success icon */
+.success-icon svg {
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
+/* Subtle fade for status changes */
+.status-badge {
+    transition: all 0.3s ease;
+}
+
+.status-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Subtle reveal animation for sections */
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Subtle focus animation for form controls */
+.form-control:focus {
+    animation: focusPulse 1s ease-out;
+}
+
+@keyframes focusPulse {
+    0% { box-shadow: 0 0 0 0 rgba(191, 106, 57, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(191, 106, 57, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(191, 106, 57, 0); }
+}
